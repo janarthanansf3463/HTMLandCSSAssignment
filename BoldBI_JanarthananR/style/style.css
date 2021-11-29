@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**********************menu**********************************************/
+
+nav{
+    display: flex;
+    
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(194, 221, 248, 0.356);
+}
+nav #boldbi{
+   margin-left: 10%;
+   margin-right: 20%;
+}
+#menu div img{
+    padding-left: 20px;
+}
+#menu{
+    display: flex;
+}
+nav #menu{
+    margin-left: -50px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+#menu ul li{
+    padding:10px;
+    display: flex;
+}
+#menu ul li img{
+    transform: rotate(180deg);
+    height: 5px;
+    padding-left: 5px;
+    margin-top: 7px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+#menu ul li a:hover{
+    color: #ff6d34;
+}
+#chaticon{
+    position: fixed;
+    margin-left: 95%;
+    margin-top: 620px;
+
+}
+body{
+    font-family: Caros,sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+.boldbi{
+    margin-top: 64px;
+    background-color:rgba(194, 221, 248, 0.356);
+    height: 750px;
+    padding-top: 30px;
+}
+.boldbi img{
+    width: 100%;
+    position: relative;
+    top: 61%;
+    z-index: -1;
+}
+.boldbi #callSales img,.boldbi #Support img{
+    width: 60px;
+    height: 60px;
+}
+#callSales{
+    width: 100%;
+    margin-bottom: 70px;
+    top: -30%;
+    left: 14%;
+    font-family: Caros,sans-serif;
+}
+#Support{
+    width: 100%;
+    top: -18%;
+    left: 14%;
+    font-family: Caros, sans-serif;
+}
+#callSales img,#callSales h2,#callSales p,#Support img ,#Support h2,#Support p{
+    margin-bottom: 20px;
+    
+}
+#callSales p,#Support p{
+    color: #828893;
+    font-style: normal;
+}
+#callSales #content{
+    line-height: 1.5;
+}
+#callSales p span{
+    color: black;
+    font-weight: bold;
+}
+#Support a{
+    text-decoration: none;
+    color: #ff6d34;
+    
+}
+/* Form field*/
+.forms{
+    text-align: center;
+    width: 34%;
+    box-shadow: 1px 1px 5px #828893;
+    background-color: white;
+    font-family:  Caros, sans-serif;
+    padding: 20px;
+}
+.forms p{
+    width: 65%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#form_field textarea{
+    margin-top: 20px;
+    border: 1px solid rgba(197, 195, 195, 0.664);
+    font-size: 15px;
+    font-family:  Caros, sans-serif;
+    color: #828893;
+    padding: 10px;
+}
+#form_field input{
+    display: block;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid rgba(197, 195, 195, 0.664);
+    padding: 10px;
+}
+#policyterms{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+input[type="submit"]{
+    background-color: #ff6d34;;
+    padding: 10px 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:  Caros, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+}
+input[type="number"]{
+    width: 86%;
+}
+.boldbi .forms{
+    float: right;
+    margin-right: 10%;
+    margin-top: -300px;
+}
+.callandsupport{
+    position: relative;
+    top: -25%;
+    left: 15%;
+    width: 20%;
+}
+#policyterms a{
+    color: #ff6d34;
+    text-decoration: none;
+    cursor: pointer;
+}
+/************* below page1**************/
+
+.location{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.location div{
+    width: 23%;
+    margin: 20px;
+    border: 1px solid #82889336;
+    height: 450px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #82889336;
+
+}
+.location div img{
+    width: 350px;
+}
+.location div p span{
+    font-weight: bold;
+}
+.location div address{
+    width: 70%;
+    font-size: 18px;
+    font-family: caros,sans-serif;
+    font-style: normal;
+}
+.location div h2{
+    margin: 10px;
+}
+.location div p{
+    margin: 10px;
+    font-family: Caros,sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.801);
+}
+.office > h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+#followus{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    text-align: center;
+    color:#828893;
+}
+#followus h2{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+#followus img{
+    padding: 5px;
+
+}
+/**************Footer*****************/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+footer .logo{
+    margin-top: -250px;
+    margin-left: 200px;
+}
+footer .footersection{
+    display: flex;
+    
+}
+footer .footersection div{
+    padding: 20px;
+}
+footer .footersection #companyandaccount{
+    margin-right: 100px;
+}
+footer .footersection div ul{
+    list-style-type: none;
+}
+#follows ul{
+    display: flex;
+}
+footer .footersection h2{
+    color: #828893;
+}
+footer .footersection div ul li{
+    padding-bottom: 10px;
+
+}
+#follows ul li img{
+    width: 30px;
+    padding: 5px;
+}
+.footersection a{
+    text-decoration: none;
+    color: black;
+}
+.footersection a:hover{
+    color: #ff6d34;
+}
+#uparrow{
+    position: fixed;
+    background-color: white;
+    padding: 20px;
+    border-radius: 60%;
+    align-items: center;
+    left: 95%;
+    top: 550px;
+    box-shadow: 1px 1px 4px #828893;
+}
+#copyright a{
+    color: #ff6d34;
+    text-decoration: none;
+}
+#copyright p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#copyright p span{
+    color: #828893;
+}
